@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-80px); animation-timing-function: cubic-bezier(0.8, 0, 1, 1); }
+    100% { transform: translateY(0); animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+}
+
+
+.first {
+    animation: jump 0.5s infinite alternate;
+    animation-delay: 0s;
+}
+
+.first rect,
+.first ellipse {
+    fill: #3498db;
+}
+
+.first ellipse:nth-child(3) {
+    fill: #FFFFFF;
+}
+
+.first rect:last-child {
+    transform: rotate(45deg);
+}
+
+.second {
+    animation: jump 1.5s infinite alternate;
+    animation-delay: 0.5s;
+}
+
+.second rect {
+    fill: #6cdb34;
+}
+
+.third {
+    animation: jump 3s infinite alternate;
+    animation-delay: 1s;
+}
+
+.third rect,
+.third ellipse {
+    fill: #b134db;
+}
+
+

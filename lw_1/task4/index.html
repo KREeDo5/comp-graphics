@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Игра Виселица</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Виселица</h1>
+    <button id="toggleViewBtn">Сменить режим</button>
+
+    <div id="question" class="question"></div>
+    <div id="wordDisplay" class="alt-word"></div>
+
+    <div id="classicView">
+        <canvas id="hangmanCanvas" width="200" height="250"></canvas>
+    </div>
+
+    <div id="altView" style="display:none;">
+        <div id="usedLetters">Использовано: —</div>
+        <div id="remaining">Осталось попыток: 7</div>
+    </div>
+
+    <div id="keyboard"></div>
+    <div id="message"></div>
+    <button id="restartBtn" style="display:none;">Новая игра</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

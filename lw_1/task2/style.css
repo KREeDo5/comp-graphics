@@ -1,0 +1,26 @@
+.trolleybus-container {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.trolleybus-container .body {
+    fill: var(--body-color);
+}
+
+.trolleybus-container .roof {
+    fill: var(--roof-color);
+}
+
+.green {
+    --body-color: #0e8c0f;
+    --roof-color: #0a320a;
+    --window-color: #1fecff;
+    --door-color: #154218;
+}
+
+.blue {
+    --body-color: #0a4ca3;
+    --roof-color: #06264a;
+    --window-color: #1fecff;
+    --door-color: #82aedc;
+}
