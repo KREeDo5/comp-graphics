@@ -18,7 +18,7 @@ body {
 
 .first rect,
 .first ellipse {
-    fill: #3498db;
+    fill: #ff00dd;
 }
 
 .first ellipse:nth-child(3) {
@@ -35,7 +35,7 @@ body {
 }
 
 .second rect {
-    fill: #6cdb34;
+    fill: #2600ff;
 }
 
 .third {
@@ -45,7 +45,7 @@ body {
 
 .third rect,
 .third ellipse {
-    fill: #b134db;
+    fill: #fa0000;
 }
 
 
